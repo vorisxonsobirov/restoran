@@ -5,6 +5,8 @@ import imageKevin from "../../assets/Image.png"
 import handKevin from "../../assets/Kevin Luo.png"
 import video from "../../assets/Polygon 2.png"
 import egg from "../../assets/ronise-daluz-LgTyii0GDKQ-unsplash 1.png"
+import { Link, Route, Routes } from 'react-router-dom'
+import Menu from '../menu/Menu'
 
 const Home = () => {
     return (
@@ -15,9 +17,10 @@ const Home = () => {
                         <a href="">Chase the new Flavour</a>
                         <h1>The key to Fine Dining</h1>
                         <p>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
-                        <form action="">
-                            <button>Explore Menu</button>
-                        </form>
+                        
+                      
+                        {/* <Link to={/menu}><button>Explore Menu</button></Link>  */}
+                            
                     </div>
                     <div className="main_holder_img">
                         <img src={heroImg} alt="" />
@@ -69,7 +72,7 @@ const Home = () => {
                     <option value="">12/05/2021</option>     
                 </select>
             </div>
-            <div className="inp_section_">
+            <div className="inp_section_">у
                 <select name="" id="">
                     <option value="">11:00 AM</option>
                     <option value="">12:00 AM</option>
