@@ -29,7 +29,7 @@ const Login = () => {
     <div className='Menu'>
       {showHome? window.location = '/' :
       <div className='container222'>
-        <h1 className='h1_h1'>Login pleace</h1>
+        <h1 className='h1_h1'>Login Pleace</h1>
         <div className='input_space'>
           <p>Enter your name</p>
           <input type="text" placeholder='Name' ref={name} />
