@@ -72,7 +72,7 @@ const Home = () => {
                     <option value="">12/05/2021</option>     
                 </select>
             </div>
-            <div className="inp_section_">у
+            <div className="inp_section_">
                 <select name="" id="">
                     <option value="">11:00 AM</option>
                     <option value="">12:00 AM</option>
