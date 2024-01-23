@@ -40,7 +40,7 @@ const Navbar = () => {
             </div>
           </ul>
         </nav>
-        <nav className="nav_link">
+        <nav className="nav_link navlink_none">
           <ul>
             <li>
               <a href="#" onClick={handleLoginToggle}>
