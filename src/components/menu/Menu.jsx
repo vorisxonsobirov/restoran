@@ -4,10 +4,13 @@ import call from "../../assets/call (2).png"
 import email from "../../assets/email.png"
 import lokation from "../../assets/Group 10 (1).png"
 import brand from "../../assets/welcome.png"
+// import G from "../../assets/G.png"
 
 const Menu = () => {
   return (
     <>
+    {/* <img  rel="icon" href={G} /> */}
+      
        <div className="section6">
         <div className="contact">
             <a href="">CONTACT US</a>

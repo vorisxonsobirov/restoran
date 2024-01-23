@@ -192,3 +192,13 @@ tbody{
   height: 550px;
 
 }
+
+.btn_btn-warning{
+  background: #F94A23;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px !important;
+}

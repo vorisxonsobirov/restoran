@@ -29,9 +29,8 @@ const Cart = () => {
           </div>
           <div className="card-body">
             <h5 className="card-title">Korzina bush</h5>
-            <p className="card-text">menu ga qayting va ovqat tanlang</p>
-            <Link to={'/menu'}>
-              <a href="#" className="btn btn-warning">В меню</a>
+            <Link to={'/'}>
+              <a href="#" className="btn_btn-warning">В меню</a>
             </Link>
           </div>
         </div>
