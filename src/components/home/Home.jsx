@@ -30,14 +30,14 @@ const Home = () => {
 
 
                 <section className="bg_img_knife">
-                    <div className="text_bg_knife">
+                    <div className="text_bg_knife bg_knife_none">
                         <h1>About Us</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
                         <form action="">
                             <button>Know More</button>
                         </form>
                     </div>
-                    <div className="text_bg_knife">
+                    <div className="text_bg_knife bg_knife_none">
                       <img src={knifes} alt="" />
                     </div>
                     <div className="text_bg_knife_s">

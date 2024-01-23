@@ -8,10 +8,10 @@ const Footer = () => {
     <>
     <div className="container">
        <footer className="footer">             
-            <div className="container bg_shadow ">
+            <div className="container bg_shadow w100">
               <p>Newsletter</p>
               <h1>Subscribe to Our Newsletter</h1>
-              <div className="inp_select">
+              <div className="inp_select ">
                 <div className="inp_footer">
                     <form action="">
                         <input type="search" placeholder='Email Adress' />
